@@ -1,0 +1,63 @@
+<style type="text/css">
+
+#quote{
+    color: white;
+} 
+
+.rectangle {
+        background-color: white;
+        height:470px;
+        width: 500px;
+        border:2px solid black;
+        margin-top:-40px;
+        box-shadow: 20px 20px 50px 15px grey;
+      }
+      #tab-btn {
+display: flex;
+}
+.login-tab,
+.register-tab {
+text-decoration: none;
+display: block;
+width: 50%;
+background-color: black;
+text-align: center;
+color: #fff;
+font-family: Impact;
+font-size: 30px;
+padding:10px;
+}
+.register-tab:hover{
+color:yellow;
+}
+
+.active {
+background-color: #eee;
+color: #000;
+border-bottom:2px solid black;
+}
+.active:hover{
+color:red;
+}
+#signup{
+margin-left: 25px;
+margin-top: 15px;
+font-family: Impact;
+font-size: 16px;
+}
+#login{
+margin-left: 100px;
+margin-top: 100px;
+font-family: Impact;
+font-size: 18px; 
+}
+#pass{
+font-size:15px;
+font-family:times;
+margin-right:30px;
+}
+#submit{
+font-family:Impact; 
+margin-left:100px;
+}
+</style>
